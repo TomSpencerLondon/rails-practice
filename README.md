@@ -1,5 +1,7 @@
 # Ruby on Rails Tutorial sample application
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/TomSpencerLondon/rails-practice.svg)](https://greenkeeper.io/)
+
 This is the sample application for
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](http://www.railstutorial.org/)
