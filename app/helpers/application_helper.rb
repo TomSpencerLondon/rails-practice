@@ -1,8 +1,11 @@
 module ApplicationHelper
 
-  def full_title(page_name=nil)
-    return "Ruby on Rails Tutorial Sample App" if page_name.nil? || page_name == ""
-    # return  "Home | Ruby on Rails Tutorial Sample App" if page_name == "Home"
-    page_name + " | Ruby on Rails Tutorial Sample App"
+  def full_title(page_title= '')
+    base_title = "Ruby on Rails Tutorial Sample App"
+    if page_title.empty?
+      base_title
+    else
+      page_title + " | " + base_title
+    end
   end
 end
